@@ -1,0 +1,4 @@
+#Renaming the values of column names in the Placement dataset
+#Columns having similar names to be renamed different but are getting same names even after renaming by import Pandas in Python 3.0
+
+Placement.rename(columns={"M":"Male","Others":"SSC","Others":"HSC","Others":"Other_Deg","Yes":"Workex"},inplace=True)
